@@ -55,7 +55,7 @@ namespace dotScrum.Sites
 
             clearAndHideNewColumnPopupPanel();
 
-            Response.Redirect("./default.aspx");
+            Response.Redirect("./loadScrumBoard.aspx");
         }
 
         protected void newColumnNameCancelButton_Click(object sender, EventArgs e)
@@ -361,7 +361,7 @@ namespace dotScrum.Sites
             XmlResult result = DotScrumMasterPage.XmlProject.getColumnAsDataSet(columnTextBox.Text, out tasks);
             if (result != XmlResult.OK)
             {
-                Master.displayMessage("Coult not obtain tasks data set: " + XmlHandler.translateErrorCode(ref result));
+                Master.displayMessage("Could not obtain tasks data set: " + XmlHandler.translateErrorCode(ref result));
                 return;
             }
 

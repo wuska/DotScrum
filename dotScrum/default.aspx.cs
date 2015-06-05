@@ -65,7 +65,7 @@ namespace dotScrum
                                                                                                     out notDoneUserStories);
             if (result != XmlResult.OK)
             {
-                Master.displayMessage("Coult not obtain user stories data set: " + XmlHandler.translateErrorCode(ref result));
+                Master.displayMessage("Could not obtain user stories data set: " + XmlHandler.translateErrorCode(ref result));
                 return;
             }
 
@@ -102,7 +102,7 @@ namespace dotScrum
         private void addNewSprint()
         {
             XmlResult result = DotScrumMasterPage.XmlProject.addSprint();
-            saveFileIfNeededAndRedirect(ref result, "Coult nod add new sprint");
+            saveFileIfNeededAndRedirect(ref result, "Could not add new sprint");
         }
 
         private string[] getUserStoryParameters(Control parentControl)

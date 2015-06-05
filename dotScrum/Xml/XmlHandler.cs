@@ -632,22 +632,10 @@ namespace dotScrum.Xml
 
             if (!projScrumBoard.InnerXml.Equals(scrumBoardNode.InnerXml))
             {
-                return replaceProjectScrumBoardWithCurrent(ref projScrumBoard);
+                projScrumBoard.InnerXml = scrumBoardNode.InnerXml;
+                saveScrumBoardAsXmlFile(ref scrumBoardNode);
             }
 
-            return XmlResult.OK;
-        }
-
-        private XmlResult replaceProjectScrumBoardWithCurrent(ref XmlNode projScrumBoard)
-        {
-            XmlNode sprintNode;
-            XmlResult result = getSprintNode(selectedSprintNumber, out sprintNode);
-            if (!result.Equals(XmlResult.OK))
-            {
-                return result;
-            }
-
-            projScrumBoard.InnerXml = scrumBoardNode.InnerXml;
             return XmlResult.OK;
         }
 
@@ -670,7 +658,7 @@ namespace dotScrum.Xml
                     if (columnTitleNode.InnerText.Equals(oldColumnName))
                     {
                         columnTitleNode.InnerText = newColumnName;
-                        return XmlResult.OK;
+                        return changeColumnNameInProjectNode(oldColumnName, newColumnName);
                     }
                 }
             }

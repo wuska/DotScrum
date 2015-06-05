@@ -158,6 +158,21 @@
 Lista akcji, powinna być listą, w które można zaznaczyć te akcje, które już zostały wykonane</Description>
       <Value>3</Value>
     </UserStory>
+    <UserStory>
+      <Name>Backlog &amp; Scrum board - usuwanie kolumny</Name>
+      <Description>Należy poprawić funkcjonalność tak, aby podczas usuwania kolumny, znajdujące się w niej zadania zostały przeniesione do poprzedniej kolumny. Jeśli usuwana jest pierwsza to do następnej.</Description>
+      <Value>2</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Scrum board - dodawanie kolumny</Name>
+      <Description>Należy zmienić funkcjonalność i dodawać kolumnę z tytułem np. "New column", zamiast wyskakującego panelu</Description>
+      <Value>1</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Scrum board - dodawanie task-a</Name>
+      <Description>Zmienić funkcjonalność tak, aby podczas dodawania zadania, zostało dodane zadanie z domyślnymi wartościami, np. "New title", "New description" itp</Description>
+      <Value>1</Value>
+    </UserStory>
   </Backlog>
   <Sprint number="0">
     <ScrumBoard>
@@ -165,10 +180,13 @@ Lista akcji, powinna być listą, w które można zaznaczyć te akcje, które ju
         <ColumnTitle>Do zrobienia</ColumnTitle>
       </Column>
       <Column>
-        <ColumnTitle>Ongoing</ColumnTitle>
+        <ColumnTitle>Aktualnie wykonywane</ColumnTitle>
       </Column>
       <Column>
-        <ColumnTitle>Done</ColumnTitle>
+        <ColumnTitle>Testowanie</ColumnTitle>
+      </Column>
+      <Column>
+        <ColumnTitle>Skończone</ColumnTitle>
       </Column>
     </ScrumBoard>
   </Sprint>
