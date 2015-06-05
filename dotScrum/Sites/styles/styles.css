@@ -1,0 +1,269 @@
+﻿/*==============================================
+    Master page
+================================================*/
+body {
+    height:94vh; 
+    margin:0; 
+    padding:0;
+}
+
+form#dotScrumMaster {
+    height:100%; 
+    margin:0 auto
+}
+
+div#divPlaceHolder {
+    height:100%;
+}
+
+/*==============================================
+    all child pages - newProject and both newScrumBoard and loadScrumBoard
+================================================*/
+.projectMenuBlock {
+    background-color: white;
+    border-style:solid;
+    border-width: 1px;
+    border-color: slategray;
+}
+
+/*==============================================
+    newProject
+================================================*/
+div.projectTitleBlock {
+    min-width: 100%;
+    vertical-align: central;
+}
+
+/*==============================================
+    child pages - both newScrumBoard and loadScrumBoard
+================================================*/
+.backlogItemBlock {
+    width: 100%;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.userStoryTitleTextBox {
+    width: 80%;
+}
+
+.userStoryValueTextBox {
+    width: 20%;
+}
+
+/*==============================================
+    child pages - both newScrumBoard and loadScrumBoard
+================================================*/
+div.popupBlockOuter {
+    position:absolute; 
+    left:50%; 
+    top:50%;
+}
+
+div.popupBlockInner {
+    position:relative; 
+    left:-50%; 
+    top:-50%; 
+    border: dotted blue 1px;
+}
+
+.popupPanelClass {
+    background-color: lightgray;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+table.outerTable {
+    height:100%; 
+    vertical-align:top;
+}
+
+tr.outerTable {
+    height:100%; 
+    vertical-align:top;
+}
+
+td.outerTable {
+    height:100%; 
+    vertical-align:top;
+}
+
+table.innerTable {
+    height:100%; 
+    vertical-align:top; 
+    margin: 0 auto; 
+    padding: 0; 
+    border-spacing:0; 
+    border-collapse:collapse;
+}
+
+tr.innerTable {
+    vertical-align:top;
+}
+
+td.innerTable {
+    min-height:100%; 
+    width:300px; 
+    vertical-align:top; 
+    margin:0 auto; 
+    padding:0; 
+    border-style:solid; 
+    border-width:thick; 
+    border-width:1px; 
+    column-span:none;
+}
+
+div.columnTitleDiv {
+    width:100%; 
+    border-style:solid; 
+    border-width:thick; 
+    border-width:1px; 
+    border-top:none; 
+    border-left:none; 
+    border-right:none;
+}
+
+div.columnContentDiv {
+    width:100%; 
+    min-height:300px;
+}
+
+.boldedLabel {
+    font-weight: bold;
+}
+
+/*==============================================
+    loadScrumBoard - task block appearance
+================================================*/
+div.taskBlock {
+    position:relative;
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:10px;
+    background-color:lightgoldenrodyellow; 
+    border-style:solid; 
+    border-color:blue; 
+    border-width:1px;
+}
+
+div.deleteTaskDiv {
+    position:relative;
+}
+
+div.taskPriorityBlock {
+    float:right; 
+    height:18px; 
+    border: solid black 1px;
+}
+
+div.taskValueBlock {
+    float:right; 
+    height:18px; 
+    border: solid black 1px;
+}
+
+br.taskSeparator {
+    min-height:10px;
+    min-width:1px;
+}
+
+.dragAndDropTrigger {
+    width: 0px;
+    height: 0px;
+    border: none;
+    background: none;
+}
+
+.taskTitleInput {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.taskDescriptionInput {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.taskPriorityInput {
+    border: none;
+    background-color: transparent;
+    width: 28px;
+}
+
+.taskValueInput {
+    border: none;
+    background-color: transparent;
+    width: 23px;
+}
+
+.taskUserStoryNameList {
+    background-color: transparent;
+    border: none;
+}
+
+.labelClass {
+    cursor: default;
+}
+
+/*==============================================
+    Default
+================================================*/
+table {
+    vertical-align:top;
+}
+
+tr {
+    vertical-align:top;
+}
+
+td {
+    vertical-align: top;
+}
+
+.projectNameTextBox {
+    font-weight: bold;
+    font-size: larger;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.backlogListPanel {
+    margin-bottom: 20px;
+}
+
+.backlogLabel {
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+    margin-top: 20px;
+}
+.usBacklogItemBlock {
+    width: 100%;
+    height: auto;
+    min-width: 350px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 2px;
+}
+
+.usTitleTextBox {
+    width: 99%;
+    font-weight: bold;
+    border: none;
+}
+
+.usDescriptionTextBox {
+    width: 0px;
+    height: 0px;
+    border: none;
+    height: auto;
+}
+
+.usValueTextBox {
+    width: 20%;
+}

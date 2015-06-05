@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ScrumBoard>
+  <Column>
+    <ColumnTitle>To do</ColumnTitle>
+  </Column>
+  <Column>
+    <ColumnTitle>Ongoing</ColumnTitle>
+  </Column>
+  <Column>
+    <ColumnTitle>Done</ColumnTitle>
+  </Column>
+</ScrumBoard>

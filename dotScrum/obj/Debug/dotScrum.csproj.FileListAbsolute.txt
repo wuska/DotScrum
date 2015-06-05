@@ -1,0 +1,4 @@
+D:\Studia\magisterskie\zaoczne\4 semestr\Praca magisterska\dotScrum\dotScrum\bin\dotScrum.dll
+D:\Studia\magisterskie\zaoczne\4 semestr\Praca magisterska\dotScrum\dotScrum\bin\dotScrum.pdb
+D:\Studia\magisterskie\zaoczne\4 semestr\Praca magisterska\dotScrum\dotScrum\obj\Debug\dotScrum.dll
+D:\Studia\magisterskie\zaoczne\4 semestr\Praca magisterska\dotScrum\dotScrum\obj\Debug\dotScrum.pdb

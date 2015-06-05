@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project name="DotScrum">
+  <Backlog>
+    <UserStory>
+      <Name>ASP.NET Controls</Name>
+      <Description>W ramach tego user story należy zapoznać się ze zdefiniowanymi kontrolkami w ASP.NET</Description>
+      <Value>3</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Przygotowanie backlogu user stories</Name>
+      <Description>Zadanie polega na podzieleniu całego projektu na możliwie małe user stories</Description>
+      <Value>4</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Dostępne frameworki XML</Name>
+      <Description>User story polega zorientowaniu się w dostępnych frameworkach XML-owych</Description>
+      <Value>3</Value>
+    </UserStory>
+    <UserStory>
+      <Name>GUI aplikacji</Name>
+      <Description>Podzielić aplikację na strony i zaplanować ich wygląd</Description>
+      <Value>2</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Format bazy XML</Name>
+      <Description>Zaplanować format bazy w pliku xml</Description>
+      <Value>1</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Klasa obsługująca XML - XMLHandler</Name>
+      <Description>Należy zaplanować klasę zarządzającą plikami XML</Description>
+      <Value>6</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Scrum board - Kolumny</Name>
+      <Description>W ramach tego zadania powinien zostać zdefiniowany wygląd kolumn scrum boardu oraz domyslne 3 kolumny: To do, Ongoing, Done</Description>
+      <Value>2</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Scrum board - Edycja kolumn</Name>
+      <Description>Po ukończeniu tej US możliwe będzie usuwanie, dodawanie kolumn oraz edycja ich nazw</Description>
+      <Value>4</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Scrum board - Taski</Name>
+      <Description>Użytkownik powinien mieć możliwość dodawania i usuwania zadań. </Description>
+      <Value>4</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Scrum board - Przenoszenie task-ów</Name>
+      <Description>Stwórzmy użytkownikowi możliwość przenoszenia zadań pomiędzy kolumnami</Description>
+      <Value>4</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Backlog - GUI</Name>
+      <Description>Stworzyć wizualizację listy user stories</Description>
+      <Value>2</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Backlog - Edycja user stories</Name>
+      <Description>Stwórzmy możliwość dodawania, usuwania oraz edycji user stories</Description>
+      <Value>2</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Done US Backlog - GUI</Name>
+      <Description>Stworzyć wizualizację listy user stories, które już zostały skończone</Description>
+      <Value>1</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Done US Backlog - Edycja user stories</Name>
+      <Description>Stwórzmy możliwość dodawania, usuwania oraz edycji skończonych user stories</Description>
+      <Value>1</Value>
+    </UserStory>
+    <UserStory>
+      <Name>XMLHandler - Scrum board - Edycja task-ów</Name>
+      <Description>Dodać możliwość zarządzania zadaniami - dodawanie, usuwanie, edycja</Description>
+      <Value>3</Value>
+    </UserStory>
+    <UserStory>
+      <Name>XMLHandler - Scrum board - Edycja kolumn</Name>
+      <Description>Dodać możliwość zarządzani kolumnami - dodawanie, usuwanie, edycja nazw</Description>
+      <Value>2</Value>
+    </UserStory>
+    <UserStory>
+      <Name>XMLHandler - Scrum board - Zarządzanie taskami</Name>
+      <Description>Należy zaimplementować możliwość przenoszenia zadań pomiędzy kolumnami</Description>
+      <Value>1</Value>
+    </UserStory>
+    <UserStory>
+      <Name>XMLHandler - Backlog - Edycja user stories</Name>
+      <Description>Dodajmy możliwość dodawania, usuwania oraz edycji user stories</Description>
+      <Value>2</Value>
+    </UserStory>
+    <UserStory>
+      <Name>XMLHandler - Backlog - Skończone user stories</Name>
+      <Description>Zaimplementujmy metodę, zwracającą user stories, których zadania są już skończone (tylko tych, które są powiązane z zadaniami)</Description>
+      <Value>3</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Statystyki realizacji projektu - przewidywane zakończenie projektu</Name>
+      <Description>Na podstawie zebranych statystyk, za pomocą średniej arytmetycznej wyznaczyć prędkość kończenia 1 pkt user story. Na tej podstawie wyznaczyć datę skończenia projektu. Należy uwzględnić fakt, że tydzień ma 5 dni pracy</Description>
+      <Value>3</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Statystyki realizacji projektu - statystyki skończoncyh user story</Name>
+      <Description>Zaimplementować metodę, zwracającą zestaw danych: wartość user story - czas trwania, dla wszystkich skończonych user stories.</Description>
+      <Value>3</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Statystyki realizacji projektu - aktualny postęp</Name>
+      <Description>Należy zebrać statystyki aktualnego postępu prac - ile punktów i kiedy zostało osiągniętych</Description>
+      <Value>2</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Wizualizacja postępów</Name>
+      <Description>Na podstawie zebranych statystyk, stworzyć wykres, który przedstawiać będzie prędkość realizowania projektu oraz przewidywany termin jego skończenia</Description>
+      <Value>4</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Backlog user stories - wyśtwielanie opisu</Name>
+      <Description>Zmienić wyświetlanie opisu user story tak, aby opis wyświetlał się po najechaniu kursorem myszy na user story</Description>
+      <Value>2</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Menu aplikacji</Name>
+      <Description>Zaprojektować menu zaplikacji</Description>
+      <Value>1</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Menu aplikacji - File</Name>
+      <Description>Należy zaimplementować następujące pozycje:
+- tworzenie nowego projektu
+- zapisywanie aktualnego projektu do pliku
+- załadowanie projektu z pliku xml</Description>
+      <Value>3</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Menu aplikacji - Main page</Name>
+      <Description>Dodać pozycję w menu głównym przejścia do strony głównej</Description>
+      <Value>1</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Menu aplikacji - Sprints</Name>
+      <Description>Dodać do menu możliwość przejścia do scrum boardu dowolnego sprintu</Description>
+      <Value>2</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Menu aplikacji - Retrospekcje</Name>
+      <Description>Dodać do menu możliwość przejścia do dowolnej retrospekcji</Description>
+      <Value>1</Value>
+    </UserStory>
+    <UserStory>
+      <Name>Retrospekcja - GUI</Name>
+      <Description>Stworzyć wizualizację retrospekcji, która zawierać będzie:
+- listę wniosków
+- listę akcji
+
+Lista akcji, powinna być listą, w które można zaznaczyć te akcje, które już zostały wykonane</Description>
+      <Value>3</Value>
+    </UserStory>
+  </Backlog>
+  <Sprint number="0">
+    <ScrumBoard>
+      <Column>
+        <ColumnTitle>Do zrobienia</ColumnTitle>
+      </Column>
+      <Column>
+        <ColumnTitle>Ongoing</ColumnTitle>
+      </Column>
+      <Column>
+        <ColumnTitle>Done</ColumnTitle>
+      </Column>
+    </ScrumBoard>
+  </Sprint>
+</Project>

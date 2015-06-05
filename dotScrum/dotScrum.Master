@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="dotScrum.Master.cs" Inherits="dotScrum.DotScrumMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>dotScrum</title>
+    <link rel="stylesheet" type="text/css" href="Sites/styles/styles.css" />
+</head>
+<body>
+    <form id="dotScrumMaster" runat="server">
+        <div>
+            <asp:Menu ID="mainMenu" runat="server" OnMenuItemClick="mainMenu_MenuItemClick" Width="100%">
+                <Items>
+                    <asp:MenuItem Text="File" Value="file">
+                        <asp:MenuItem Text="New project" Value="newProject" NavigateUrl="~/Sites/newProject.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Save project as..." Value="saveProjectAs"></asp:MenuItem>
+                        <asp:MenuItem Text="Load project" Value="loadProject" Target="uploadFile" ></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="Sprints" Value="sprints">
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="Main page" Value="mainPage" NavigateUrl="~/default.aspx" />
+                </Items>
+            </asp:Menu>
+        </div>
+        <div id="divPlaceHolder">
+            <asp:ContentPlaceHolder ID="bodyContent" runat="server" />
+        </div>
+    </form>
+</body>
+</html>
